@@ -1,0 +1,21 @@
+{
+  "name": "doktok-telegram-bot",
+  "version": "1.0.0",
+  "description": "DOK TOK Sales Order Management Telegram Bot - Standalone",
+  "main": "standalone-bot-final.js",
+  "scripts": {
+    "start": "node standalone-bot-final.js",
+    "dev": "node standalone-bot-final.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "pg": "^8.11.3",
+    "bcrypt": "^5.1.1"
+  },
+  "keywords": ["telegram", "bot", "sales", "orders"],
+  "author": "DOK TOK",
+  "license": "MIT"
+}
